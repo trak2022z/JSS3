@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> JavaScript getElementById() Method </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <p id="demo"> getElementById Demo JS </p>
+
+    <div id="mydiv">Some content</div>
+    
+    <button id="btn">Info</button>
+
+    <p id="demo1">Click on the button below in order to change the text here.</p>
+    <button onclick="myFunction1()">Try it 1: </button>
+    <button onclick="myFunction2()">Try it 2: </button>
+
+    
+    
+<h1>Example of using getElementById in a form</h1>
+<a href="javascript:toggleFormVisibility();" id="sub">Show the form</a>
+<form name ="subscribe" id="subscribe_frm" action="#" style="display: none">
+<div>
+    <h2>Please enter your subscription information:</h2>
+    <p><label for="name">Your Name: </label><input type="text" name="name" id="txt_name" /></p>
+    <p><label for="email">Your Email: </label><input type="text" name="email" id="txt_email" /></p>
+    <p><label for="mail_format">Mail Format: <select name="mail_format" id="slt_mail_format" >
+                        <option value="TEXT">Plain Text</option>
+                        <option value="HTML">HTML</option>
+                        </select></p>
+    <p><input type="button" name="submit" value="submit" onclick="processFormData();" /></p>
+</div>
+<a href="javascript:toggleFormVisibility();" id="nosub" style="display: none"
+>Hide the form</a>
+</form>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

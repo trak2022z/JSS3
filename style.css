@@ -1,0 +1,12 @@
+#mydiv {
+    width: 200px; height: 20px; border: 1px solid steelblue;
+    padding: 5px;
+}
+
+button {
+    width: 6em; height: 4em;
+}
+
+* {
+    margin: 10px 10px;
+}
