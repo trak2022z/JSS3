@@ -4,7 +4,7 @@ console.log("paragraph contents:", p.innerHTML.trim())
 let colorRed = document.getElementById("demo");                      
 colorRed.style.color = "red";
 
-
+//console log
 const el = document.getElementById('mydiv');
 const btn = document.getElementById('btn');
 
